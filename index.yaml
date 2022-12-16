@@ -3,7 +3,7 @@ entries:
   a4-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-09T15:13:45.3398221+02:00"
+    created: "2022-12-16T12:20:25.4770405+02:00"
     dependencies:
     - name: tomcat
       repository: http://charts.bitnami.com/bitnami
@@ -17,4 +17,19 @@ entries:
     urls:
     - a4-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-09T15:13:45.3377418+02:00"
+  couponservice:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-16T12:20:25.4796402+02:00"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: '>= 8.8.6'
+    description: A Helm chart for Kubernetes
+    digest: 3ff98bafca07dc9ca9bf603cc7ca89c9ebbc452fecb88327bc51b71f0f298884
+    name: couponservice
+    type: application
+    urls:
+    - couponservice-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-12-16T12:20:25.4686782+02:00"
