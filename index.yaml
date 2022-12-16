@@ -3,7 +3,7 @@ entries:
   a4-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-16T12:20:25.4770405+02:00"
+    created: "2022-12-16T12:32:20.8979215+02:00"
     dependencies:
     - name: tomcat
       repository: http://charts.bitnami.com/bitnami
@@ -20,7 +20,7 @@ entries:
   couponservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-16T12:20:25.4796402+02:00"
+    created: "2022-12-16T12:32:20.9026824+02:00"
     dependencies:
     - name: mysql
       repository: https://charts.bitnami.com/bitnami
@@ -32,4 +32,4 @@ entries:
     urls:
     - couponservice-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-16T12:20:25.4686782+02:00"
+generated: "2022-12-16T12:32:20.895834+02:00"
